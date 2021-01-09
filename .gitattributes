@@ -1,0 +1,1 @@
+community-qa/data_folder/semeval2016-task3-taskA-train-pairs.tsv filter=lfs diff=lfs merge=lfs -text

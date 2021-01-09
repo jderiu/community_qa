@@ -1,0 +1,83 @@
+# build output
+# target
+# node
+# node_modules
+# .tmp
+# src/main/webapp/dist
+# src/main/script/deploy/downloads
+# bin
+# .sass-cache
+#
+# # log
+# *.log
+# src/main/script/sync-logs/logs
+# /logs/
+#
+# # eclipse config files
+# .classpath
+# .project
+# .settings
+#
+# # intellij config files
+# *.iml
+# .idea/libraries/
+# .idea/sonarIssues.xml
+# .idea/workspace.xml
+# .idea/dictionaries/tardy.xml
+# .idea/jsLibraryMappings.xml
+# .idea/uiDesigner.xml
+# .idea/dataSources.*
+# .idea/artifacts
+# .idea/shelf
+# compiler.xml
+#
+# # misc
+# .merge_file*
+# src/main/resources/rebel.xml
+# .tern-project
+# .externalToolBuilders
+# .DocumentRevisions-V100
+# .fseventsd
+# html-angular-validate-report-checkstyle.xml
+# html-angular-validate-report.json
+
+#build
+*.class
+target/
+target/*
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+#idea stuff
+.idea
+.idea/*
+*.iml
+
+#Vagrant stuff
+.vagrant
+DevEnv/.vagrant
+
+#outputfiles from experiments
+outputFiles/
+outputFiles/*
+
+# compiled python
+*.pyc
+
+#auto generated folder
+/bin/
+
+embeddings/
+models/
+*.gz
+model/
+vocabularies/
